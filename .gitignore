@@ -1,0 +1,14 @@
+bin/
+obj/
+publish/
+.vs/
+*.user
+*.suo
+TestResults/
+*.tap
+*.TAP
+tcreport.txt
+*.tcreport.txt
+settings.json
+*.zip
+artifacts/

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk" TreatAsLocalProperty="SelfContained">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>TAPCleanGUI</AssemblyName>
+    <RootNamespace>TAPCleanGui</RootNamespace>
+    <Product>TAPClean GUI</Product>
+    <Version>1.0.0</Version>
+    <Copyright>TAPClean GUI contributors</Copyright>
+    <Authors>TAPClean GUI contributors</Authors>
+    <Description>Graphical front end for TAPClean.</Description>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+    <ApplicationUseCompatibleTextRendering>false</ApplicationUseCompatibleTextRendering>
+    <!-- Keep publishes framework-dependent. This SDK's self-contained switch ignores a false argument. -->
+    <SelfContained>false</SelfContained>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TAPCleanGui.Core\TAPCleanGui.Core.csproj" />
+  </ItemGroup>
+</Project>
